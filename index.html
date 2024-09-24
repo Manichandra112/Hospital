@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCare Hospital</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>LifeCare</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#specialties">Specialties</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="hospital.html">Our Hospital</a></li> <!-- Navigation Link to hospital.html -->
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>The Hospital That <br> Cares For You</h1>
+                <h3>Best Teams</h3>
+                <a href="hospital.html" class="btn">Learn More About Our Hospital</a> <!-- Button Redirecting to hospital.html -->
+            </div>
+            <div class="hero-image">
+                <img src="https://media.istockphoto.com/id/1305635445/photo/smiling-indian-young-female-doctor-standing-isolated-over-white-background-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=jwFDXuGTyAJdg0Bz2J9Rf4y_9UMwKdWZQfdsgXwgigU=" alt="Hospital">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>LifeCare Hospital is committed to providing top-notch healthcare services with a focus on patient well-being.</p>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="doctors">
+            <div class="container">
+                <h2>Our Doctors</h2>
+                <div class="doctor-cards">
+                    <div class="card">
+                        <img src="assets/images/doctors/dt1.jpg" alt="Dr. Alexa Zoan">
+                        <h3>Dr. Alexa Zoan</h3>
+                        <p>Specialist in Cardiology</p>
+                        <button class="view-btn">View Profile</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/doctors/dt2.jpg" alt="Dr. John Smith">
+                        <h3>Dr. John Smith</h3>
+                        <p>Orthopedic Surgeon</p>
+                        <button class="view-btn">View Profile</button>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/doctors/dt3.jpg" alt="Dr. Emily Clark">
+                        <h3>Dr. Emily Clark</h3>
+                        <p>Neurologist</p>
+                        <button class="view-btn">View Profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialties Section -->
+        <section id="specialties" class="specialties">
+            <div class="container">
+                <h2>Our Specialties</h2>
+                <div class="speciality-cards">
+                    <div class="speciality-card">
+                        <img src="assets/images/specialties/s1.png" alt="Knee Surgery">
+                        <h3>Knee Surgery</h3>
+                        <p>Advanced procedures for knee injuries and conditions.</p>
+                    </div>
+                    <div class="speciality-card">
+                        <img src="assets/images/specialties/s2.png" alt="Spine Surgery">
+                        <h3>Spine Surgery</h3>
+                        <p>Comprehensive spine care and surgical solutions.</p>
+                    </div>
+                    <div class="speciality-card">
+                        <img src="assets/images/specialties/s3.png" alt="Leg Surgery">
+                        <h3>Leg Surgery</h3>
+                        <p>Expert treatment for various leg ailments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Reviews Section -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>Patient Reviews</h2>
+                <div class="review-slider">
+                    <div class="review">
+                        <img src="assets/images/patients/p1.png" alt="Patient 1">
+                        <p>"LifeCare provided excellent care and support throughout my treatment."</p>
+                        <span>- Jane Doe</span>
+                    </div>
+                    <div class="review">
+                        <img src="assets/images/patients/p2.png" alt="Patient 2">
+                        <p>"The staff is professional and genuinely cares about your well-being."</p>
+                        <span>- John Smith</span>
+                    </div>
+                    <div class="review">
+                        <img src="assets/images/patients/p3.jpg" alt="Patient 3">
+                        <p>"A state-of-the-art facility with compassionate doctors."</p>
+                        <span>- Emily Clark</span>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    
+                    <button type="submit" class="btn">Connect</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>24/7 Services</p>
+                <p>Top Doctors</p>
+                <p>Best Care</p>
+                <p>Patient-Centric</p>
+            </div>
+            <div class="footer-section">
+                <h3>Specialties</h3>
+                <p>Knee Surgery</p>
+                <p>Spine Surgery</p>
+                <p>Leg Surgery</p>
+                <p>Tendon Surgery</p>
+            </div>
+            <div class="footer-section">
+                <h3>Best Teams</h3>
+                <p>Doctors</p>
+                <p>Nursing</p>
+                <p>Staff</p>
+                <p>Administration</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Near MG Road</p>
+                <p>Galaxy Care</p>
+                <p>Phone: 333-09093</p>
+                <p>Mobile: 09-883-090</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LifeCare Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Doctor Profile -->
+    <div class="modal" id="doctorModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImg" src="" alt="Doctor Image">
+            <h2 id="modalName">Doctor Name</h2>
+            <p id="modalDescription">Doctor description goes here.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+</body>
+</html>
